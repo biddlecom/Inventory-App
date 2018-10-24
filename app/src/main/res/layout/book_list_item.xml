@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16dp"
+    tools:context=".BookMasterMainActivity">
+
+    <RelativeLayout
+        android:id="@+id/for_color_background_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/book_title_text_view"
+            style="@style/BookTitleTextView"
+            android:layout_marginBottom="@dimen/margin_4dp"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/book_price_name_text_view"
+            style="@style/BookPriceNameTextView"
+            android:layout_below="@id/book_title_text_view"
+            android:layout_marginBottom="@dimen/margin_4dp"
+            android:text="@string/price_with_dollar_sign" />
+
+        <TextView
+            android:id="@+id/book_price_number_text_view"
+            style="@style/BookPriceNumberTextView"
+            android:layout_below="@id/book_title_text_view"
+            android:layout_marginBottom="@dimen/margin_4dp"
+            android:layout_toEndOf="@id/book_price_name_text_view"
+            android:layout_toRightOf="@id/book_price_name_text_view"
+            tools:text="00.00" />
+
+        <TextView
+            android:id="@+id/book_quantity_name_text_view"
+            style="@style/BookQuantityNameTextView"
+            android:layout_below="@id/book_price_name_text_view"
+            android:text="@string/quantity" />
+
+        <TextView
+            android:id="@+id/book_quantity_number_text_view"
+            style="@style/BookQuantityNumberTextView"
+            android:layout_below="@id/book_price_name_text_view"
+            android:layout_toEndOf="@id/book_quantity_name_text_view"
+            android:layout_toRightOf="@id/book_quantity_name_text_view"
+            tools:text="000" />
+
+        <Button
+            android:id="@+id/sell_item_button"
+            style="@style/ButtonSellItemStyle" />
+    </RelativeLayout>
+</LinearLayout>

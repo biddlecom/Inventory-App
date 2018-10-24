@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43A047</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#F4511E</color>
+
+    <!-- Color for the Empty View Title Text -->
+    <color name="empty_view_title_text_color">#1B5E20</color>
+
+    <!-- Color for the Empty View Subtitle Text -->
+    <color name="empty_view_subtitle_text_color">#388E3C</color>
+
+    <!-- Color Black -->
+    <color name="black_color">#000000</color>
+
+    <!-- Color White -->
+    <color name="white_color">#FFFFFF</color>
+
+    <!-- Color Charcoal (for the Price and Quantity numbers in the ListView on the
+    activity_main_book_master.xml file). -->
+    <color name="charcoal_color">#424242</color>
+</resources>

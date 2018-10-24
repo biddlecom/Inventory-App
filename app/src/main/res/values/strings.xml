@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Book Master - Biddlecom IAS2</string>
+    <string name="empty_view_title_instructions">Yikes! It\'s pretty empty in here.</string>
+    <string name="empty_view_subtitle_instructions">\nTry pressing the
+        Floating Action Button\nto insert a book into the database.</string>
+    <string name="project_instructions">***Just for this project,
+    you can also press the \nOverflow menu and select \"Insert Dummy Data\"\nto populate
+    the fields faster.</string>
+    <string name="book_not_inserted">The book insertion FAILED.  Please try again.</string>
+    <string name="unknown_title">Unknown Title</string>
+    <string name="unknown_price">Unknown Price</string>
+    <string name="unknown_quantity">Unknown Quantity</string>
+    <string name="unknown_book_title">UNKNOWN BOOK TITLE</string>
+    <string name="menu_insert_dummy_data">Insert Dummy Data</string>
+    <string name="menu_delete_all_books">Delete All Books</string>
+    <string name="title">Title:</string>
+    <string name="hint_title">Title</string>
+    <string name="author_info">Author Info:</string>
+    <string name="hint_author_first_name">Author First Name</string>
+    <string name="hint_author_last_name">Author Last Name</string>
+    <string name="isbn">ISBN:</string>
+    <string name="hint_isbn">ISBN</string>
+    <string name="price_with_dollar_sign">Price:  $</string>
+    <string name="price_without_dollar_sign">Price:</string>
+    <string name="hint_price">Price</string>
+    <string name="quantity">Quantity:</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="supplier_info">Supplier Info:</string>
+    <string name="hint_supplier_name">Supplier Name</string>
+    <string name="hint_supplier_phone_number">Supplier Phone Number</string>
+    <string name="editor_activity_add_a_new_book">Add A New Book</string>
+    <string name="editor_activity_edit_an_existing_book">Edit An Existing Book</string>
+    <string name="editor_insert_book_successful">You have successfully inserted the book!</string>
+    <string name="editor_insert_book_failed">The book was not successfully inserted. Please try again.</string>
+    <string name="editor_update_book_successful">You have successfully updated the book!</string>
+    <string name="editor_update_book_failed">The book was not successfully updated. Please try again.</string>
+    <string name="editor_delete_book_successful">You have successfully deleted the book.</string>
+    <string name="editor_delete_book_failed">The book was not successfully deleted. Please try again.</string>
+    <string name="editor_activity_save_button_add_info">You must enter all the information first,\n before
+    you can save the book.</string>
+    <string name="action_save_book">Save Book</string>
+    <string name="action_delete_book">Delete Book</string>
+    <string name="delete_alert_dialog_message">Are you sure you want to delete this book?</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="unsaved_changes_dialog_message">Do you want to discard your changes and quit editing?</string>
+    <string name="discard_changes">Discard Changes</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_all_books_alert_dialog_message">Are you sure you want to delete ALL books?</string>
+    <string name="delete_all_books_second_alert_dialog_message">Are you absolutely sure?\nTHIS WILL BE A CATASTROPHIC EVENT!!</string>
+    <string name="cancel_delete_all_books_button">Cancel</string>
+    <string name="delete_all_books_button">Delete All</string>
+    <string name="delete_all_successful">You have successfully deleted all books.</string>
+    <string name="delete_all_unsuccessful">Sorry. All book were not deleted.\nPlease try again.</string>
+    <string name="button_sell_item">Sell Item</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="reorder">Reorder</string>
+    <string name="minus_button">-</string>
+    <string name="plus_button">+</string>
+    <string name="editor_contact_supplier_button">Contact\u0020 Supplier</string>
+</resources>

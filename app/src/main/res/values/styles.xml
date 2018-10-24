@@ -1,0 +1,179 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the Empty View Image View ID: empty_view_book_image -->
+    <style name="EmptyViewImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@mipmap/empty_activity_background</item>
+    </style>
+
+    <!-- Style for the Empty View Title Text View ID: empty_view_title_text -->
+    <style name="EmptyViewTitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/empty_view_book_image</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_6dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:text">@string/empty_view_title_instructions</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/empty_view_title_text_color</item>
+    </style>
+
+    <!-- Style for the Empty View Subtitle Text View ID: empty_view_subtitle_text -->
+    <style name="EmptyViewSubtitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/empty_view_title_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:text">@string/empty_view_subtitle_instructions</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/empty_view_subtitle_text_color</item>
+    </style>
+
+    <!-- Style for the book_list_item.xml Text View ID: book_title_text_view -->
+    <style name="BookTitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <!-- Style for the book_list_item.xml Text View IDs: book_price_name_text_view -->
+    <style name="BookPriceNameTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <!-- Style for the book_list_item.xml Text View ID: book_price_number_text_view-->
+    <style name="BookPriceNumberTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/charcoal_color</item>
+    </style>
+
+    <!-- Style for the book_list_item.xml Text View ID: book_quantity_name_text_view -->
+    <style name="BookQuantityNameTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingEnd">@dimen/padding_6dp</item>
+        <item name="android:paddingRight">@dimen/padding_6dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <!-- Style for the book_list_item.xml Text View ID: book_quantity_number_text_view -->
+    <style name="BookQuantityNumberTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/charcoal_color</item>
+    </style>
+
+    <!-- Style for all the CATEGORY NAMES in the activity_editor_book_master.xml -->
+    <style name="CategoryNamesStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style for all the CATEGORY NAMES INPUT FIELDS for TITLE, ISBN, PRICE in the
+     activity_editor_book_master.xml file -->
+    <style name="CategoryNamesInputFieldsStyleTIP">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <!-- Style for all the CATEGORY NAMES INPUT FIELDS for the QUANTITY in the
+    activity_editor_book_master.xml file -->
+    <style name="CategoryNamesInputFieldsStyleQ">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style for all the CATEGORY NAMES INPUT FIELDS for AUTHOR INFO and SUPPLIER INFO in the
+     activity_editor_book_master.xml file -->
+    <style name="CategoryNamesInputFieldsStyleAS">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <!-- Style for the SELL ITEM button (and also the SOLD OUT button that the SELL ITEM button
+     turns into) in the book_list_item.xml file -->
+    <style name="ButtonSellItemStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Style for the MINUS button in the activity_editor_book_master.xml file -->
+    <style name="EditorMinusButtonStyle">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_toLeftOf">@id/edit_quantity_text_view</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/margin_6dp</item>
+        <item name="android:text">@string/minus_button</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Style for the PLUS button in the activity_editor_book_master.xml file -->
+    <style name="EditorPlusButtonStyle">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_toRightOf">@id/edit_quantity_text_view</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin_6dp</item>
+        <item name="android:text">@string/plus_button</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Style for the CONTACT SUPPLIER button in the activity_editor_book_master.xml file -->
+    <style name="EditorContactSupplierButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/editor_contact_supplier_button</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

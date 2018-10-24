@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 24dp margin -->
+    <dimen name="margin_24dp">24dp</dimen>
+    <!-- 24dp padding -->
+    <dimen name="padding_24dp">24dp</dimen>
+    <!-- 16dp margin -->
+    <dimen name="margin_16dp">16dp</dimen>
+    <!-- 16dp padding -->
+    <dimen name="padding_16dp">16dp</dimen>
+    <!-- 8dp margin -->
+    <dimen name="margin_8dp">16dp</dimen>
+    <!-- 8dp padding -->
+    <dimen name="padding_8dp">16dp</dimen>
+    <!-- 6dp margin -->
+    <dimen name="margin_6dp">6dp</dimen>
+    <!-- 6dp padding -->
+    <dimen name="padding_6dp">6dp</dimen>
+    <!-- 4dp margin -->
+    <dimen name="margin_4dp">4dp</dimen>
+    <!-- 4dp padding -->
+    <dimen name="padding_4dp">4dp</dimen>
+</resources>
