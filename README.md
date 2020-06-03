@@ -17,7 +17,7 @@ Once a user saves a book into the database, it will show up on the main screen. 
 
 The user has the ability to delete one specific book from the inventory as well as an option to mass delete every book in the inventory if they so desire.
 
-NOTE- this app was made as part of a Udacity course and in it’s current state is not meant for a real world application.  It does function as designed and can be used, but it is not a polished app.
+#### NOTE- this app was made as part of a Udacity course and in it’s current state is not meant for a real world application.  It does function as designed and can be used, but it is not a polished app.
 
 # Installation and Usage
 
