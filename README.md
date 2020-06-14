@@ -1,4 +1,4 @@
-Book Inventory App
+# Book Inventory App
 
 This app is a simple app that will allow the user to input common data about a book and save it on their device.  The book data that can be saved includes:
 -Book Title
@@ -17,9 +17,9 @@ Once a user saves a book into the database, it will show up on the main screen. 
 
 The user has the ability to delete one specific book from the inventory as well as an option to mass delete every book in the inventory if they so desire.
 
-NOTE- this app was made as part of a Udacity course and in it’s current state is not meant for a real world application.  It does function as designed and can be used, but it is not a polished app.
+#### NOTE- this app was made as part of a Udacity course and in it’s current state is not meant for a real world application.  It does function as designed and can be used, but it is not a polished app.
 
-Installation and Usage
+# Installation and Usage
 
 This app was written in Java using Android Studio.  It was tested and works on the most recent version of Android Studio 4.0.
 
